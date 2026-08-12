@@ -1,0 +1,48 @@
+body{
+    background-color: peachpuff;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+.herocontiner{
+    background-color: white;
+    padding: 28px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.herocontiner h1{
+    margin: 0;
+    font-weight: 800;
+}
+
+.herocontainer__text{
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: max-content;
+    padding: 10px;
+}
+
+.herocontainer__img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.herocontainer__btn{
+    background-color: #0077B5;
+    color: white;
+}

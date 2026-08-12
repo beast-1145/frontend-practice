@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    min-height: 300px;
+    padding: 20px 24px;
+    background-color: lavender;
+    transition: transform 0.4s ease;
+}
+.plan:hover{
+    transform: translateY(-10px);
+}
+.plan__name{
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.plan__price{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.plan__price::before{
+    content: "$";
+}
+.plan__price::after{
+    content: "/mo";
+}
+.plan__feature{
+    border-bottom: 2px solid ghostwhite;
+    padding: 5px 0;
+}
+.plan__feature::before{
+    content: "✔ ";
+}
+.plan__btn{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /*padding: 6px;*/
+    /*background-color: white;*/
+    padding:12px;
+    width:100%;
+    background: white;
+    color: black;
+    font-weight:600;
+}
